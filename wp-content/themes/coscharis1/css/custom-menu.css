@@ -1,0 +1,30 @@
+		.navbar-fixed {background: rgba(255, 255, 255, 0.6) none repeat scroll 0 0;
+				height: 70px;
+				position: relative;
+				width: 100%;
+				z-index: 1000;}
+				
+		.menublack li a{ color:#000000 !important}
+		.menublue li a{color:#20319C !important}
+		nav .brand-logo.center{
+			background-image: url(../images/logonew1.jpg) !important;
+			}	
+		.social__logo img{
+		margin-top: 8px
+	}
+
+
+			
+  /* when screen is less than 600px wide
+     show mobile version and hide desktop */
+  @media (max-width: 600px) {
+		nav .brand-logo.center{
+			background-image: url(../images/logonew1.jpg) !important;
+			}
+.social__logo img{
+	width: 85px;
+	margin-top: 10px;
+	margin-right: 120px;
+}
+
+  }			

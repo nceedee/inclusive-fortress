@@ -1,0 +1,51 @@
+html,body,body>form{height:100%!important} 
+body{margin:0;background-color:#000} 
+
+
+#isMobile{display:none;position:absolute;width:1px;height:1px;top:-9999;left:-9999} 
+.no-cursor a{cursor:context-menu} 
+
+#slideshowWrapper{height:715px;background:#fff} 
+#background{width:100%;height:100%} 
+
+
+.caption{position:absolute;text-align:right;top:20px;right:78px;display:none;width:100%; padding-right: 15px} 
+
+.caption p{color:#fff;font-family:Garamond,Georgia,"Times New Roman",Times,serif;font-weight:600;font-size:20px;line-height:24px;letter-spacing:1px;text-shadow:2px 2px 4px #000} 
+
+.caption p span{font-size:25px;line-height:28px} 
+
+#pageBg{background-size:cover;background-position:center center;width:1300px;height:100%;position:fixed;z-index:-1;left:50%;margin-left:-650px;max-height:650px} 
+
+#contentWrapper{max-width:911px;margin:0 auto;display:table;width:100%} 
+
+@media screen and (-webkit-min-device-pixel-ratio:0){.buttonCaptionText span{font-weight:500} 
+} 
+
+#footerWrapper{background:#000} 
+#footerInner{font-size:11px;color:#cbcbcb;margin:0 auto} 
+a.footer{font-family:Verdana,Arial,Helvetica,sans-serif;font-size:9px;color:#a1a1a1;text-decoration:none} 
+a.footer:hover{font-family:Verdana,Arial,Helvetica,sans-serif;font-size:9px;color:#a1a1a1;text-decoration:underline} 
+.footerLinks{float: left;
+text-align: center;
+width: 100%;} 
+.footerLinks ul{margin:0;padding:0;list-style-type:none} 
+.footerLinks li{margin:0;padding:0;display:inline-block} 
+.footerLinks li:last-child{margin-right:0} 
+.footerLinks a{display:inline-block;padding:6px 9px} 
+
+.footerAddress{text-align:center;margin:15px 0 0 0} 
+.footerAddress h1{padding:15px 0;margin:0;font-size:9px} 
+
+
+@media screen and (max-width:1300px){#pageBg{width:100%;left:0;margin-left:0} } 
+
+@media screen and (max-width:900px){.button{width:50%} 
+.footerLinks{width:100%;float:none;text-align:center;margin:0 0 16px 0} 
+.caption{width:330px} 
+} 
+@media screen and (max-width:700px){#isMobile{display:block} 
+#pageBg{max-height:inherit} 
+.caption{top:55px;right:15px;width:87%} 
+.footerAddress{display:none} 
+} 
